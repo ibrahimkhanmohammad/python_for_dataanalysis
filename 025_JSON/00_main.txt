@@ -1,0 +1,24 @@
+Python JSON 
+
+JSON stands for JavaScript Object Notation. It's a format used to store and exchange structured data.
+Imagine you have this student information:
+
+{
+    "name": "Ibrahim",
+    "age": 20,
+    "marks": [80, 90, 75],
+    "passed": true
+}
+
+This is JSON data. It looks similar to a Python dictionary, but JSON is a data format, not a Python data structure.
+
+Python has a built-in module called json. Import it like this:
+import json
+
+Function	     Purpose
+json.loads()	 JSON string → Python object
+json.dumps()	 Python object → JSON string
+json.load()	     JSON file → Python object
+json.dump()	     Python object → JSON file
+
+Memory trick: The s means string. Without s, you're working with a file object.

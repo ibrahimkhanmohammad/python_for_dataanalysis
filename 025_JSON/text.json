@@ -1,0 +1,21 @@
+{
+    "students": [
+
+        {
+            "id": 101,
+            "name": "Luke berg",
+            "age": 24,
+            "marks": 95,
+            "passed": true
+        },
+
+        {
+            "id": 102,
+            "name": "Mark twin",
+            "age": 29,
+            "marks": 32,
+            "passed": false
+        }
+
+    ]
+}
